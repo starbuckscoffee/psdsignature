@@ -37,9 +37,20 @@ Enter X position (or press Enter for default):
 Enter Y position (or press Enter for default):
 Enter font size (or press Enter for default):
 Do you want to add a signature image? (y/n): y
-Enter the path to your signature image file: D:\pdftest\Signature2.png
-PDF successfully signed and saved to: D:\PDFsignatureJS\invoice_sample_signed.pdf
+Enter the path to your signature image file: C:\pdftest\Signature2.png
+PDF successfully signed and saved to: C:\PDFsignatureJS\invoice_sample_signed.pdf
 PDF signing process completed successfully.
 ```
+
+
+> [!IMPORTANT]
+> X,Yの座標の指定は、用意されたPDFファイルから値を算出する必要があります。 \
+> このプログラムの既定値（X,Yの入力値を省略場合）は、(width-200, 100)　になっています。\
+> フォントサイズの既定値は 12 になっています。 \
+> 署名画像の配置はプログラムコードで決め打ち (width-200, 120) になっているのでコードに直接、値を代入してください。 
+> 
+
+
+
 
 
