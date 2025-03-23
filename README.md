@@ -33,7 +33,7 @@
 
 ## 実行画面のサンプル
 ```
-Enter the path to the PDF file: D:\PDFsignatureJS\invoice_sample.pdf
+Enter the path to the PDF file: C:\PDFsignatureJS\invoice_sample.pdf
 Enter signature text: 22-mar-2025
 Enter X position (or press Enter for default):
 Enter Y position (or press Enter for default):
@@ -50,7 +50,7 @@ PDF signing process completed successfully.
 > このプログラムの既定値（X,Yの入力値を省略場合）は、(width-200, 100)　になっています。\
 > フォントサイズの既定値は 12 になっています。 \
 > 署名画像の配置はプログラムコードで決め打ち (width-200, 120) になっているのでコードに直接、値を代入してください。 
-> 
+> 署名・日付ありのファイル(invoice_sample_signed.pdf)を、このGitレポジトリにアップしてあるので、参考にしてください。
 
 
 
